@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+#tabuleiro{
+    border: 5px solid #ff6600;
+    position: absolute;
+    top: 10vh;
+    left: 70vh;
+}
+#som{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 535px;
+    left: 470px;
+    z-index: 2;
+}
+#fimDeJogo{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 3;
+    top: 11vh;
+    left: 71vh;
+}
+#youGanhou{
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    display: none;
+    z-index: 4;    
+}
+#youPerdeu{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 3px;
+    display: none;
+    z-index: 4;
+}
+#reiniciar{
+    position: absolute;
+    top: 410px;
+    left: 135px;
+    cursor: pointer;
+    font-size: 30px;
+    color:white;
+    z-index: 5;
+}
